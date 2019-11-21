@@ -1,3 +1,11 @@
+<!--
+ * @Description: vue
+ * @Version: 2.0.1.003
+ * @Author: 薛松田
+ * @Date: 2019-11-21 17:03:22
+ * @LastEditors: 薛松田
+ * @LastEditTime: 2019-11-21 17:09:24
+ -->
 <template>
   <div id="app">
     <h4>
@@ -28,7 +36,7 @@ export default {
   },
   watch: {
     address_data(val) {
-      console.log(val);
+      console.log(val)
     }
   },
   components: {
